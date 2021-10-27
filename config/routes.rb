@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   get "/hello", to: "first#hello"
 
-  resource :todos
+  resources :todos
   #resource will auto full CRUD routes - could be check in terminal rails routes
 end
